@@ -51,7 +51,7 @@ h3{
     font-size: 20px;
 }
 .biography{
-    background-image: url(" ");
+    
     background-repeat: no-repeat;
     background-position: right;
     margin: 0;
@@ -103,18 +103,6 @@ h3{
 }
 
 /*-----------slide animatio end-----*/
-
-.footer{
-    text-align:center;
-    
-
-}
-.tomato-highlight{
-    color: tomato;
-}
-.green-highlight{
-    color: green;
-}
 
 
 
