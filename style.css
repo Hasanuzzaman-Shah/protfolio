@@ -1,0 +1,120 @@
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+   
+}
+
+
+h1{
+    font-size: 40px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5% ;
+    padding: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,yellow,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+   
+   }
+   .link-button{
+       transition: 1.3s;
+   }
+   .link-button:hover{
+       transform: scale(1.4);
+   }
+
+
+   .second-part-width{
+    width: 40%;
+    float: left;
+    margin: 3%;
+    padding: 2%;
+}
+
+.second-part-width img{
+    width: 100%;
+}
+h3{
+    font-size: 20px;
+}
+.biography{
+    background-image: url(" ");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin: 0;
+}
+
+
+.slider-frame{
+    
+    height: 800px;
+    width: 1200px;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+/*-----------slide animatio start------*/
+@-webkit-keyframes slide_animation{
+    0%{left: 0px;}
+    10%{left: 0px;}
+    20%{left: 1200px;}
+    30%{left: 1200px;}
+    40%{left: 2400px;}
+    50%{left: 2400px;}
+    60%{left: 1200px;}
+    70%{left: 1200px;}
+    80%{left: 0px;}
+    90%{left: 0px;}
+    100%{left: 0px;}
+}
+
+
+.slider-images{
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 33s ;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-iteration-direction: alternate;
+    -webkit-animation-play-state: running;
+}
+
+.img-container{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+
+}
+
+/*-----------slide animatio end-----*/
+
+.footer{
+    text-align:center;
+    
+
+}
+.tomato-highlight{
+    color: tomato;
+}
+.green-highlight{
+    color: green;
+}
+
+
+
